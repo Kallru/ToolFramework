@@ -1,0 +1,9 @@
+E:\WorkRoom\MyWork\ExampleForBlog\ToolFramework\Source\Core\bin\Debug\Core.dll
+E:\WorkRoom\MyWork\ExampleForBlog\ToolFramework\Source\Core\bin\Debug\Core.pdb
+E:\WorkRoom\MyWork\ExampleForBlog\ToolFramework\Source\Core\obj\Debug\Core.dll
+E:\WorkRoom\MyWork\ExampleForBlog\ToolFramework\Source\Core\obj\Debug\Core.pdb
+D:\WorkRoom\MyWork\ExampleForBlog\ToolFramework\Source\Core\bin\Debug\Core.dll
+D:\WorkRoom\MyWork\ExampleForBlog\ToolFramework\Source\Core\bin\Debug\Core.pdb
+D:\WorkRoom\MyWork\ExampleForBlog\ToolFramework\Source\Core\obj\Debug\Core.csprojResolveAssemblyReference.cache
+D:\WorkRoom\MyWork\ExampleForBlog\ToolFramework\Source\Core\obj\Debug\Core.dll
+D:\WorkRoom\MyWork\ExampleForBlog\ToolFramework\Source\Core\obj\Debug\Core.pdb

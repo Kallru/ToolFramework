@@ -1,0 +1,17 @@
+﻿Build started 2015-07-04 오후 5:41:12.
+     1>Project "D:\WorkRoom\MyWork\ExampleForBlog\ToolFramework\Source\Native\ToolInterface\ToolInterface.vcxproj" on node 3 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (..\..\..\Interm\DebugDll\) contains files shared from another project (FrameWork.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../FrameWork /I../FrameWork/Common /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D TOOLINTERFACE_EXPORTS /D CLIENT_IMPORT /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"ToolPCH.h" /Fp"..\..\..\Interm\DebugDll\ToolInterface.pch" /Fo"..\..\..\Interm\DebugDll\\" /Fd"..\..\..\Interm\DebugDll\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ToolPCH.cpp
+         ToolPCH.cpp
+     1>d:\workroom\mywork\exampleforblog\toolframework\source\native\toolinterface\binaryreader.h(51): warning C4800: 'unsigned char' : forcing value to bool 'true' or 'false' (performance warning)
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../FrameWork /I../FrameWork/Common /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D TOOLINTERFACE_EXPORTS /D CLIENT_IMPORT /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"ToolPCH.h" /Fp"..\..\..\Interm\DebugDll\ToolInterface.pch" /Fo"..\..\..\Interm\DebugDll\\" /Fd"..\..\..\Interm\DebugDll\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt DllExport.cpp ToolInterface.cpp
+         ToolInterface.cpp
+     1>d:\workroom\mywork\exampleforblog\toolframework\source\native\toolinterface\toolinterface.cpp(5): fatal error C1083: Cannot open include file: 'boost/algorithm/string.hpp': No such file or directory
+         DllExport.cpp
+         Generating Code...
+     1>Done Building Project "D:\WorkRoom\MyWork\ExampleForBlog\ToolFramework\Source\Native\ToolInterface\ToolInterface.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.02

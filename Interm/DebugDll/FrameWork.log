@@ -1,0 +1,53 @@
+﻿Build started 2015-07-04 오후 5:41:02.
+     1>Project "D:\WorkRoom\MyWork\ExampleForBlog\ToolFramework\Source\Native\FrameWork\FrameWork.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ICommon /Zi /nologo /W1 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D CLIENT_EXPORT /D _VC80_UPGRADE=0x0600 /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"..\..\..\Interm\DebugDll\\" /Fd"..\..\..\Interm\DebugDll\vc120.pdb" /FR"..\..\..\Interm\DebugDll\\" /Gd /TP /analyze- /errorReport:prompt BmpFile.cpp Camera.cpp D3DApp.cpp DrawEx.cpp GameMain.cpp Picking.cpp Player.cpp Timer.cpp Utility.cpp Common\dxutil.cpp Mesh.cpp Model.cpp XFile.cpp ZFrustum.cpp ZQuadTree.cpp ZTerrain.cpp Render.cpp Render_Cartoon.cpp Effect.cpp Effect_Fire.cpp Effect_FireBroken.cpp
+         Effect_FireBroken.cpp
+     1>d:\workroom\mywork\exampleforblog\toolframework\source\native\framework\StdAfx.h(27): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         Effect_Fire.cpp
+     1>d:\workroom\mywork\exampleforblog\toolframework\source\native\framework\stdafx.h(27): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         Effect.cpp
+     1>d:\workroom\mywork\exampleforblog\toolframework\source\native\framework\StdAfx.h(27): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         Render_Cartoon.cpp
+     1>d:\workroom\mywork\exampleforblog\toolframework\source\native\framework\StdAfx.h(27): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         Render.cpp
+     1>d:\workroom\mywork\exampleforblog\toolframework\source\native\framework\StdAfx.h(27): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         ZTerrain.cpp
+     1>d:\workroom\mywork\exampleforblog\toolframework\source\native\framework\stdafx.h(27): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         ZQuadTree.cpp
+     1>d:\workroom\mywork\exampleforblog\toolframework\source\native\framework\stdafx.h(27): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         ZFrustum.cpp
+     1>d:\workroom\mywork\exampleforblog\toolframework\source\native\framework\stdafx.h(27): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         XFile.cpp
+     1>d:\workroom\mywork\exampleforblog\toolframework\source\native\framework\StdAfx.h(27): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         Model.cpp
+     1>Model.cpp(3): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+         Mesh.cpp
+     1>d:\workroom\mywork\exampleforblog\toolframework\source\native\framework\Model.h(13): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+         dxutil.cpp
+         Utility.cpp
+     1>d:\workroom\mywork\exampleforblog\toolframework\source\native\framework\stdafx.h(27): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         Timer.cpp
+     1>d:\workroom\mywork\exampleforblog\toolframework\source\native\framework\stdafx.h(27): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         Player.cpp
+     1>d:\workroom\mywork\exampleforblog\toolframework\source\native\framework\StdAfx.h(27): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         Picking.cpp
+     1>d:\workroom\mywork\exampleforblog\toolframework\source\native\framework\StdAfx.h(27): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         GameMain.cpp
+     1>d:\workroom\mywork\exampleforblog\toolframework\source\native\framework\StdAfx.h(27): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         DrawEx.cpp
+     1>d:\workroom\mywork\exampleforblog\toolframework\source\native\framework\StdAfx.h(27): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         D3DApp.cpp
+     1>d:\workroom\mywork\exampleforblog\toolframework\source\native\framework\StdAfx.h(27): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         Camera.cpp
+     1>d:\workroom\mywork\exampleforblog\toolframework\source\native\framework\StdAfx.h(27): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         Generating Code...
+         Compiling...
+         BmpFile.cpp
+     1>d:\workroom\mywork\exampleforblog\toolframework\source\native\framework\StdAfx.h(27): fatal error C1083: Cannot open include file: 'D3DX9.h': No such file or directory
+         Generating Code...
+     1>Done Building Project "D:\WorkRoom\MyWork\ExampleForBlog\ToolFramework\Source\Native\FrameWork\FrameWork.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:09.34

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="DllExport">
+      <UniqueIdentifier>{29e22d78-776a-42f9-a347-ef9bff20a910}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PCH">
+      <UniqueIdentifier>{d88f7bc0-d6c6-4139-8101-2984a4affdf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ToolInterface">
+      <UniqueIdentifier>{3b16425d-5ffe-4f66-8465-646ea3316e20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Stream">
+      <UniqueIdentifier>{d4bc72df-066a-4539-ac1a-5d6bad878414}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DllExport.cpp">
+      <Filter>DllExport</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolPCH.cpp">
+      <Filter>PCH</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolInterface.cpp">
+      <Filter>ToolInterface</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DllExport.h">
+      <Filter>DllExport</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolPCH.h">
+      <Filter>PCH</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolInterface.h">
+      <Filter>ToolInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryReader.h">
+      <Filter>Stream</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryWriter.h">
+      <Filter>Stream</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>
